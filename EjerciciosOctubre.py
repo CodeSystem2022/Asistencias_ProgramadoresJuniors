@@ -41,6 +41,7 @@ while True:
     
     
     #Ejercicio EMIR MAYA
+    ##Ya había pasado mi ejercicio, pero voy a hacer el commit
     #Ejercicio 01: Crear una funcion para sumar los valores recibidos de tipo
 #Numericos, utilizando argumentos variables *args como parametro de la
 # funcion y agregar como resultado la suma de todos los valores pasados
