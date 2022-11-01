@@ -89,4 +89,42 @@ pago_sin_impuesto = float(input('Digite el pago sin impuestos: '))
 impuesto = float(input('Digite el monto del impuesto a aplicar: '))
 pago_con_impuesto = calcular_total_pago(pago_sin_impuesto, impuesto)
 print(f'El pago con impuesto es: {pago_con_impuesto}')
+
+
+class Vehiculo():
+    def __init__(self, color, ruedas):
+        self.color = color
+        self.ruedas = ruedas
+
+    def __str__(self):
+        return 'color = ' + self.color + '\nruedas = ' + str(self.ruedas)
+
+#Gaston Franco    
+
+#Ejercicio clase 11
+# Herencia a otra clase
+class Auto(Vehiculo):
+    def __init__(self, color, ruedas, velocidad):
+        super().__init__(color, ruedas)
+        self.velocidad = velocidad
+
+    def __str__(self):
+        return super().__str__() + '\nvelocidad = ' + str(self.velocidad)
+
+
+
+# Herencia a otra clase
+class Bicicleta(Vehiculo):
+    def __init__(self, color, ruedas, tipo):
+        super().__init__(color, ruedas)
+        self.tipo = tipo
+
+    def __str__(self):
+        return super().__str__() + '\ntipo = ' + self.tipo
+
+# Objetos
+vehiculo = Vehiculo('Rojo', 4)
+auto = Auto('Rojo', 4, 120)
+bici = Bicicleta('negra', 2, 'playera')
+
     
