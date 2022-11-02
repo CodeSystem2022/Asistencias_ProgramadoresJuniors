@@ -56,7 +56,7 @@ def sumar_valor(*args): #recibimos una cantidad de parametros indefinidos
 #Llamamos a la funcion
 print(sumar_valor(3, 5, 9))
 
-        # Ejercicio Bianca Tosetto
+        # Ejercicio BIANCA TOSETTO
 # Ejercicio Funciones 05: Convertidor de Temperaturas
 # Realizar dos funciones para convertir de grados celsius a fahrenheit y viceversa
 
