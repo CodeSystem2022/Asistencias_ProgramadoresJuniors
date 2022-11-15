@@ -1,6 +1,9 @@
-# Ejercicio Renzo Viscio
+# Ejercicios: octubre 2022
 
+
+# Ejercicio Renzo Viscio
 # Ejercicio 11: Agenda telefónica
+
 agenda = {}
 while True:
     print('\t.:MENU:.')
@@ -127,4 +130,4 @@ vehiculo = Vehiculo('Rojo', 4)
 auto = Auto('Rojo', 4, 120)
 bici = Bicicleta('negra', 2, 'playera')
 
-    
+
